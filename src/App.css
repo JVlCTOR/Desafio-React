@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280xpx;
+  margin: 0 auto ;
+  padding: 2rem;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+
+#fundo {
+  background-color: #f6f6f6;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.dot{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
